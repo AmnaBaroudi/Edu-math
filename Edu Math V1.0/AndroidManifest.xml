@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.app.test"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".TestapplicationActivity"
+            android:label="@string/Edu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menuprincipale"
+            android:label="@string/Edu" >
+        </activity>
+        <activity
+            android:name=".algebre_geo"
+            android:label="@string/Edu" >
+        </activity>
+         <activity
+            android:name=".algebre_geo_exo"
+            android:label="@string/Edu" >
+        </activity>
+        <activity
+            android:name=".parametre"
+            android:label="@string/Edu" >
+        </activity>
+        <activity
+            android:name=".liste_exo"
+            android:label="@string/Edu" >
+        </activity>
+        <activity
+            android:name=".cours_alg"
+            android:label="@string/Edu" >
+        </activity>
+        <activity
+            android:name=".cours_geo"
+            android:label="@string/Edu" >
+        </activity>
+        <activity
+            android:name=".liste_exo_geo"
+            android:label="@string/Edu" >
+        </activity>
+         <activity
+            android:name=".cours_identite"
+            android:label="@string/Edu" >
+        </activity>
+        
+        
+    </application>
+
+</manifest>

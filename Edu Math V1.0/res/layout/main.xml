@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu_background"
+     >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.44" >
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_ang"
+                android:layout_width="206dp"
+                android:layout_height="56dp"
+                android:layout_x="72dp"
+                android:layout_y="314dp"
+                android:background="@drawable/mybutton"
+                android:text="Anglais" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="32dp"
+                android:layout_height="27dp"
+                android:layout_x="25dp"
+                android:layout_y="327dp"
+                android:src="@drawable/ang" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="160dp"
+                android:layout_height="132dp"
+                android:layout_x="78dp"
+                android:layout_y="46dp"
+                android:src="@drawable/edu_math" />
+
+            <Button
+                android:id="@+id/btn_fr"
+                android:layout_width="204dp"
+                android:layout_height="51dp"
+                android:layout_x="72dp"
+                android:layout_y="222dp"
+                android:background="@drawable/mybutton"
+                android:text="Français" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="26dp"
+                android:layout_height="24dp"
+                android:layout_x="29dp"
+                android:layout_y="234dp"
+                android:src="@drawable/fr" />
+
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

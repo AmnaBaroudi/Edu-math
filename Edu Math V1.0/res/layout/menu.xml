@@ -1,0 +1,98 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_background" >
+
+    <LinearLayout
+       
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="100dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_x="2dp"
+        android:layout_y="0dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="194dp"
+        android:layout_height="150dp"
+        android:layout_x="76dp"
+        android:layout_y="-12dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_cours"
+        style="@android:style/Theme.Light"
+        android:layout_width="235dp"
+        android:layout_height="52dp"
+        android:layout_x="68dp"
+        android:layout_y="143dp"
+        android:background="@drawable/mybutton"
+        android:text="Liste des cours" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_x="13dp"
+        android:layout_y="144dp"
+        android:src="@drawable/icon_course" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_x="13dp"
+        android:layout_y="213dp"
+        android:src="@drawable/exo" />
+
+    <Button
+        android:id="@+id/Btn_param"
+        style="@android:style/Theme.Light"
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_x="64dp"
+        android:layout_y="278dp"
+        android:background="@drawable/mybutton"
+        android:text="Paramètres" />
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_x="10dp"
+        android:layout_y="277dp"
+        android:src="@drawable/param" />
+
+    <Button
+        android:id="@+id/Btn_exo"
+        style="@android:style/Theme.Light"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_x="67dp"
+        android:layout_y="212dp"
+        android:background="@drawable/mybutton"
+        android:text="Liste des exercices" />
+
+    <ImageView
+        android:id="@+id/Retour"
+        android:layout_width="148dp"
+        android:layout_height="82dp"
+        android:layout_x="103dp"
+        android:layout_y="342dp"
+        android:src="@drawable/back" />
+
+</AbsoluteLayout>

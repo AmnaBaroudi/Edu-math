@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/menu_background" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.44" >
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="91dp"
+                android:layout_height="82dp"
+                android:layout_x="39dp"
+                android:layout_y="16dp"
+                android:src="@drawable/param" />
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="204dp"
+                android:layout_height="55dp"
+                android:layout_x="88dp"
+                android:layout_y="293dp"
+                android:background="@drawable/mybutton"
+                android:text="A Propos" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_x="14dp"
+                android:layout_y="299dp"
+                android:src="@drawable/info" />
+
+            <Button
+                android:id="@+id/btn_score"
+                android:layout_width="202dp"
+                android:layout_height="54dp"
+                android:layout_x="86dp"
+                android:layout_y="213dp"
+                android:background="@drawable/mybutton"
+                android:text="Meilleurs Scores" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="16dp"
+                android:layout_y="210dp"
+                android:src="@drawable/best_scor" />
+
+            <ToggleButton
+                android:id="@+id/tgl_btn_son"
+                android:layout_width="109dp"
+                android:layout_height="48dp"
+                android:layout_x="172dp"
+                android:layout_y="138dp"
+                android:background="@drawable/mybutton"
+                android:text="ToggleButton" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="18dp"
+                android:layout_y="128dp"
+                android:src="@drawable/son" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_x="104dp"
+                android:layout_y="148dp"
+                android:text="Son"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="146dp"
+                android:layout_y="47dp"
+                android:text="Paramètres"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
