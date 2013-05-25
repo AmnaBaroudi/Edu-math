@@ -9,7 +9,7 @@ Projet de fin d'étude : Conception et réalisation d’une application éducati
 
  Mme F.Benabbou 
 
-<a>Développement et conception :</a>
+<a>Conception et développement :</a>
 
  -R.Anass
  
