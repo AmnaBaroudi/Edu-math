@@ -1,23 +1,27 @@
 Edu math
 ============================
-Université Hassan II Mohemmadia 
-Faculté des sciences Ben M'sik
-Département mathématique et informatique
+ <h4 > Université Hassan II Mohemmadia </h4>
+
 
 Projet de fin d'étude : Conception et réalisation d’une application éducative pour terminaux Android
 
-Encadrement : 
-Mme F.Benabbou
+<a>Encadrement : </a>
 
-Développement et conception :
-R.Anass
-D.Sohayb
+ Mme F.Benabbou 
 
-Graphisme :
-N.Oussama
+<a>Développement et conception :</a>
 
-Cours de Mathématique:
-Mr H.Darhouane
+ -R.Anass
+ 
+ -D.Sohayb
+
+<a>Graphisme :</a>
+
+ N.Oussama
+
+<a>Cours de Mathématique:</a>
+
+ Mr H.Darhouane
 
 
 
