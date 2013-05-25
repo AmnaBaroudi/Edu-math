@@ -39,5 +39,5 @@ L’application interagit avec un seul acteur principal qui pourra effectué les
 	Sauvegarder partie.
 	Consulter cours.
 	Consulter exercice.
-	Consulter score.
+	Consulter score. 
 	Partager score.
