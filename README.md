@@ -1,27 +1,11 @@
 Edu math
 ============================
- <h4 > Université Hassan II Mohemmadia </h4>
 
 
-Projet de fin d'étude : Conception et réalisation d’une application éducative pour terminaux Android
 
-<a>Encadrement : </a>
+Conception et réalisation d’une application éducative pour terminaux Android
 
- Mme F.Benabbou 
 
-<a>Conception et développement :</a>
-
- -R.Anass
- 
- -D.Sohayb
-
-<a>Graphisme :</a>
-
- N.Oussama
-
-<a>Cours de Mathématique:</a>
-
- Mr H.Darhouane
 
 
 
